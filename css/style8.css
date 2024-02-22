@@ -1,0 +1,476 @@
+/* ほぼ共通 */
+
+a{
+    text-decoration: none;
+}
+.more{
+    width: 200px;
+    height: 54px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #7633A4, #250D65);
+}
+.more a{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    padding-top: 18px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: Bold;
+}
+/*header*/
+header{
+    width: 100%;
+    height: 86px;
+    position: fixed;
+}
+header .header-wrapper{
+    width: 1380px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 34px;
+    margin: 0 auto;
+}
+header .header2-wrapper{
+    display: flex;
+}
+header a{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: Bold;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    padding-left: 25px;
+}
+
+/* zero */
+.zero{
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/hero.png);
+}
+.zero h2{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 101px;
+}
+.zero p{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 5px;
+    letter-spacing: 0.05;
+}
+/*zero-botomm*/
+.zero-botomm{
+    width: 100%;
+    height: 45px;
+    background-color: #F7F7F7;
+}
+.zero-botomm p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    padding-left: 165px;
+    padding-top: 15px;
+}
+/* third */
+.third{
+    width: 751px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.third h2{
+    font-family: "Montserrat",sans-serif;
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    font-weight: normal;
+}
+.third .midashi{
+    display: flex;
+    margin-bottom: 27px;
+    margin-top: 10px;
+}
+.third h6{
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    padding-top: 3px;
+}
+.third .oshirase{
+    width: 82px;
+    height: 22px;
+    border-radius: 50px;
+    background-color: #E8E8E8;
+    position: relative;
+    padding-top: 5px;
+    margin-left: 10px;
+}
+.third .midashi .oshirase p{
+        font-family: "Montserrat",sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        
+        text-align: center;
+    }
+.third .oomidashi{
+    height: 38px;
+    width: auto;
+    border-left: #391E88 solid 6px;
+    padding-left: 15px;
+}
+
+.third img{
+    width: 750px;
+    height: 400px;
+}
+.third .up{
+    padding-top: 30px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    font-weight: 300;
+}
+.third h3{
+    height: 38px;
+    margin-top: 60px;
+}
+.third .middle{
+    padding-top: 20px;
+    padding-bottom: 39px;
+}
+.third h4{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.third .botomm{
+    padding-top: 30px;
+}
+.third h3{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 24px;
+    font-weight: 600;
+}
+.third .btn-sns{
+    width: 395px;
+    height: 30px;
+    margin-top: 40px;
+}
+
+
+/* forth */
+.forth div{
+    display: flex;
+    width: 730px;
+    height: 94px;
+    margin: 0 auto;
+    border-bottom: #B8AED5 solid;
+    border-top: #B8AED5 solid;
+    margin-top: 40.5px;
+    
+}
+.forth div p{
+    color: #391E88;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 14px;
+    font-weight: 300;
+    width: 50%;
+    padding-left: 31.5px;
+    padding-top: 39.5px;
+    letter-spacing: 0.05em;
+}
+.forth .center{
+    text-align: center;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 14px;
+    font-weight: 300;
+    color: #391E88;
+    padding-top: 20.5px;
+}
+.forth div .forth-left{
+    padding-top: 16.5px;
+    height: 70px;
+    border-right: #B8AED5 solid;
+    margin-top: 13px;
+}
+
+
+/* seventh */
+.seventh{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 356px;
+    margin-top: 110px;
+}
+.seventh h2{
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Montserrat"; 
+    font-size: 34px;
+    font-weight: bold;
+    color: #391E88;
+}
+.seventh h3{
+    text-align: center;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 14px;
+    font-weight: 600;
+    color: #391E88;
+}
+.seventh p{
+    text-align: center;
+    padding-top: 35px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    font-weight: 300;
+}
+.seventh .more{
+    margin: 31px auto 0;
+}
+
+
+
+
+
+
+
+
+/* footer共通 */
+
+footer {
+    width: 100%;
+    height: 173px;
+    background-color: #120E19;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer a{
+    font-family: "Montserrat"; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+footer p{
+    font-family: "Montserrat"; 
+    font-size: 10px;
+    font-weight: "Regular";
+    color: #A798B7;
+    text-align: center;
+    padding-top: 22px;
+}
+
+
+
+
+/* headerレスポンシブ */
+.responsive{
+    display: none;
+}
+
+/* レスポンシブ */
+@media (max-width: 375px){
+
+.pc{
+    display: none;
+}
+.responsive{
+    display: block;
+}
+/* first */
+.first-wrapper{
+    display: block;
+    width: 335px;
+    height: auto;
+    margin-bottom: 0px;
+}
+.first-wrapper div{
+    display: block;
+}
+.first-wrapper img{
+    width: 335px;
+    height: 211px;
+    margin: 0 auto;
+    padding-right: 0px;
+    padding-bottom: 20px;
+}
+.first-wrapper p{
+    width: 335px;
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 50px;
+    letter-spacing: 0.05em;
+}
+.first-wrapper h4{
+    padding-bottom: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.first .last{
+    padding-bottom: 0px;
+}
+.third{
+    width: 335px;
+    height: auto;
+    margin-top: 40px;
+}
+.third h2{
+    font-size: 22px;
+}
+.third .midashi{
+    margin-bottom: 14px;
+    margin-top: 20px;
+}
+.third h6{
+    padding-top: 6px;
+}
+.third .oshirase{
+    height: 23px;
+    padding-top: 6px;
+    margin-left: 20.6px;
+}
+.third img{
+    width: 335px;
+    height: 187px;
+}
+.third .btn-sns{
+    width: 267px;
+    height: 63px;
+}
+
+
+
+
+
+/* 
+.third .midashi .oshirase p{
+        font-family: "Montserrat",sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        
+        text-align: center;
+    }
+.third .oomidashi{
+    height: 38px;
+    width: auto;
+    border-left: #391E88 solid 6px;
+    padding-left: 15px;
+}
+.third .up{
+    padding-top: 30px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    font-weight: 300;
+}
+.third h3{
+    height: 38px;
+    margin-top: 60px;
+}
+.third .middle{
+    padding-top: 20px;
+    padding-bottom: 39px;
+}
+.third h4{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.third .botomm{
+    padding-top: 30px;
+}
+.third h3{
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 24px;
+    font-weight: 600;
+}
+ */
+
+
+
+
+/* seventh */
+.seventh{
+    margin-top: 80px;
+    height: 328px;
+}
+.seventh p{
+    width: 296px;
+    height: auto;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.05;
+}
+.seventh p{
+    margin: 0 auto;
+    padding-top: 35px;
+}
+/* zero */
+.zero{
+    background-size: auto;
+}
+.zero-botomm{
+    height: 25px;
+    background-color: #F7F7F7;
+}
+.zero-botomm p{
+    font-size: 11px;
+    padding-left: 20px;
+    padding-top: 6px;
+}
+
+.forth div{
+    height: 113px;
+    width: 335px;
+}
+.forth div p{
+    font-size: 12px;
+    padding-left: 9.5px;
+    padding-top: 40.5px;
+}
+.forth div .forth-left{
+    padding-top: 17.5px;
+    height: 83px;
+    margin-top: 15px;
+    padding-left: 21px;
+} 
+
+
+
+
+
+
+
+/* footer */
+footer{
+    height: 213px;
+}
+footer .responsive{
+    padding-left: 31px;
+}
+footer .responsive a{
+    padding-right: 20px;
+    font-size: 12px;
+}
+footer .footer-top{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+footer a{
+    padding-top: 0px;
+}
+footer p{
+    padding-top: 30px;
+}
+}

@@ -1,0 +1,611 @@
+@charset "UTF-8";
+/* ほぼ共通 */
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.more{
+    width: 200px;
+    height: 54px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #7633A4, #250D65);
+}
+.more a{
+    color: #FFFFFF;
+    text-align: center;
+    display: block;
+    padding-top: 18px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: Bold;
+}
+
+
+/*header*/
+header{
+    width: 100%;
+    height: 86px;
+    position: fixed;
+}
+header .header-wrapper{
+    width: 1380px;
+    justify-content: space-between;
+    display: flex;
+    padding-top: 34px;
+    margin: 0 auto;
+}
+header .header2-wrapper{
+    display: flex;
+}
+header a{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: Bold;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    padding-left: 25px;
+}
+
+/* zero */
+.zero{
+    width: 100%;
+    height: 240px;
+    background-image: url(../img/hero.png);
+}
+.zero h2{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 101px;
+}
+.zero p{
+    text-align: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 9px;
+    letter-spacing: 0.05;
+}
+
+
+/*zero-botomm*/
+.zero-botomm{
+    width: 100%;
+    height: 45px;
+    background-color: #F7F7F7;
+}
+.zero-botomm p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    padding-left: 165px;
+    padding-top: 15px;
+}
+
+/* fifth */
+.fifth{
+    width: 1300px;
+    height: 874px;
+    margin: 0 auto;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+}
+.fifth-wrapper .bg-circle{
+    height: 615px ;
+    width: 864px;
+    position: absolute;
+    left: 214px;
+}
+.fifth-wrapper h2{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #391E88;
+    padding-bottom: 31px;
+}
+.fifth-wrapper h4{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    color: #333333;
+    letter-spacing: 0.05em;
+    background: linear-gradient(transparent 70%, yellow 30%);
+}
+.fifth-wrapper p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    line-height: 1.8em;
+    padding-top: 37px;
+}
+.fifth-wrapper .bg-face{
+    height: 416px ;
+    width: 1300px;
+    position: absolute;
+    top: 35px;
+}
+.fifth .more{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.fifth .CEO{
+    width: 445px;
+    height: 330px;
+}
+.fifth .fifth-botomm{
+    display: flex;
+    position: absolute;
+    position: absolute;
+    top: 544px;
+    left: 95px;
+}
+.fifth .fifth-botomm p{
+    padding-left: 50px;
+    width: 605px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    line-height: 1.67em;
+}
+
+
+/* sixth */
+.sixth{
+width: 1110.5px;
+height: 928px;
+margin: 140px auto 110px;
+
+}
+.sixth h4{
+    font-family: "Montserrat",sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #391E88;
+    text-align: center;
+}
+.sixth div{
+    height: 76px;
+    border-bottom: #DDDDDD solid;
+    display: flex;
+    position: relative;
+}
+.sixth div h6{
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    padding-top: 32.5px;
+}
+.sixth div p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 15px;
+    padding-top: 32.5px;
+    position: absolute;
+    left: 204px;
+}
+.sixth .map{
+    width: 100%;
+    height: 394px;
+    background-color: #E5E5E5;
+    border: none;
+    margin-top: 60.5px;
+}
+.sixth .map h5{
+    color: #A2A2A2;
+    font-family: "Montserrat",sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 173px;
+    letter-spacing: 0.05em;
+}
+.sixth h3{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seventh */
+.seventh{
+    background-color: #F7F7F7;
+    width: 100%;
+    height: 356px;
+    margin-top: 110px;
+}
+.seventh h2{
+    text-align: center;
+    padding-top: 80px;
+    font-family: "Montserrat"; 
+    font-size: 34px;
+    font-weight: bold;
+    color: #391E88;
+}
+.seventh h3{
+    text-align: center;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 14px;
+    font-weight: 600;
+    color: #391E88;
+}
+.seventh p{
+    text-align: center;
+    padding-top: 35px;
+    font-family: "ヒラギノ角ゴシック";
+    font-size: 15px;
+    font-weight: 300;
+}
+.seventh .more{
+    margin: 31px auto 0;
+}
+
+
+/* footer共通 */
+
+footer {
+    width: 100%;
+    height: 173px;
+    background-color: #120E19;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+footer a{
+    font-family: "Montserrat"; 
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+footer p{
+    font-family: "Montserrat"; 
+    font-size: 10px;
+    font-weight: "Regular";
+    color: #A798B7;
+    text-align: center;
+    padding-top: 22px;
+}
+.iphone{
+    display: none;
+}
+
+
+/* headerレスポンシブ */
+.responsive{
+    display: none;
+}
+
+/* レスポンシブ */
+@media (max-width:375px) {
+.pc{ 
+    display: none;
+}
+.responsive{
+    display: block;
+}
+
+/* fifth */
+.fifth{
+    width: 100%;
+    height: 1071px;
+}
+.fifth-wrapper{
+    width: 335px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url(../img/bg-circle.png);
+}
+.fifth .CEO{
+    width: 335px;
+    height: 248px;
+}
+.fifth .fifth-botomm{
+    display: block;
+    position: absolute;
+    top: 443px;
+    left: 20px;
+    width: 335px;
+    height: 628px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.fifth-wrapper h2{
+    padding-top: 0px;
+    margin-top: 60px ;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+/* .fifth-wrapper h2{
+    text-align: center;
+    padding-top: 100px;
+    font-family: "Montserrat",sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    color: #391E88;
+    padding-bottom: 31px;
+} */
+.fifth-wrapper h4{
+    text-align: center;
+    font-size: 32px;
+    width: 280px;
+    margin: 0 auto;
+    background: linear-gradient(transparent 70%, yellow 30%);
+}
+.fifth-wrapper p{
+    font-size: 14px;
+    padding-top: 44px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.fifth .fifth-botomm p{
+    width: 335px;
+    height: 350px;
+    letter-spacing: 0.05em;
+    padding-left: 0px;
+    padding-top: 30px;
+    text-align: left;
+    font-size: 14px;
+}
+
+
+
+/* 
+.fifth .CEO{
+    width: 445px;
+    height: 330px;
+}
+.fifth .fifth-botomm{
+    display: flex;
+    position: absolute;
+    position: absolute;
+    top: 544px;
+    left: 95px;
+}
+.fifth .fifth-botomm p{
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    line-height: 1.67em;
+} */
+/* 
+.fifth{
+    width: 1300px;
+    height: 874px;
+    margin: 0 auto;
+    background-size: cover;
+    margin-top: 40px;
+    position: relative;
+}
+.fifth-wrapper .bg-circle{
+    height: 615px ;
+    width: 864px;
+    position: absolute;
+    left: 214px;
+}
+.fifth-wrapper .bg-face{
+    height: 416px ;
+    width: 1300px;
+    position: absolute;
+    top: 35px;
+}
+.fifth .more{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.fifth .CEO{
+    width: 445px;
+    height: 330px;
+}
+.fifth .fifth-botomm{
+    display: flex;
+    position: absolute;
+    position: absolute;
+    top: 544px;
+    left: 95px;
+}
+.fifth .fifth-botomm p{
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "ヒラギノ角ゴシック",sans-serif;
+    line-height: 1.67em;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* sixth */
+.sixth{
+    width: 341.07px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.sixth h4{
+    font-size: 24px;
+    padding-bottom: 29.5px;
+}
+.sixth div{
+    height: 86px;
+    border-bottom: #DDDDDD solid;
+    display: block;
+    position: relative;
+}
+.sixth .last{
+    height: 100px;
+}
+.sixth div p{
+    font-size: 16px;
+    padding-top: 0px;
+    position: absolute;
+    left: 0px;
+}
+.sixth div h6{
+    font-size: 16px;
+    padding-top: 20.5px;
+    padding-left: 0px;
+}
+.sixth .map{
+    width: 335px;
+    height: 240px;
+    margin-top: 40px;
+}
+.sixth .map h5{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 106px;
+    letter-spacing: 0.05em;
+    margin-top: 0px;
+}
+.sixth h3{
+    font-size: 14px;
+    padding-top: 11px;
+}
+
+/* .sixth{
+    width: 1110.5px;
+    height: 928px;
+    margin: 140px auto 110px;
+    
+    }
+    .sixth h4{
+        font-family: "Montserrat",sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        color: #391E88;
+        text-align: center;
+    }
+    .sixth div{
+        height: 76px;
+        border-bottom: #DDDDDD solid;
+        display: flex;
+        position: relative;
+    }
+    .sixth div h6{
+        padding-left: 30px;
+        font-size: 15px;
+        font-weight: 600;
+        font-family: "ヒラギノ角ゴシック",sans-serif;
+        padding-top: 32.5px;
+    }
+    .sixth div p{
+        font-family: "Montserrat",sans-serif;
+        font-size: 15px;
+        padding-top: 32.5px;
+        position: absolute;
+        left: 204px;
+    }
+    .sixth .map{
+        width: 100%;
+        height: 394px;
+        background-color: #E5E5E5;
+        border: none;
+        margin-top: 60.5px;
+    }
+    .sixth .map h5{
+        color: #A2A2A2;
+        font-family: "Montserrat",sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        margin: 0 auto;
+        margin-top: 173px;
+        letter-spacing: 0.05em;
+    }
+    .sixth h3{
+        font-size: 16px;
+        font-weight: 300;
+        font-family: "ヒラギノ角ゴシック",sans-serif;
+        padding-top: 10px;
+    } */
+
+
+
+
+
+
+    /* seventh */
+.seventh{
+    margin-top: 80px;
+    height: 328px;
+}
+.seventh p{
+    width: 296px;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 0.05;
+}
+.seventh p{
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+
+    /* footer */
+footer{
+    height: 213px;
+}
+footer .responsive{
+    padding-left: 31px;
+}
+footer .responsive a{
+    padding-right: 20px;
+    font-size: 12px;
+}
+footer .footer-top{
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+footer a{
+    padding-top: 0px;
+}
+footer p{
+    padding-top: 30px;
+}
+
+
+
+}
